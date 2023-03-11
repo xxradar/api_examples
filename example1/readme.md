@@ -1,10 +1,7 @@
 ```
 http://kb.avinetworks.com/2016/03/01/http-basic-auth-for-api-queries/
-
 curl --user admin:xxxxx  --insecure -H "Accept: application/json" -X GET https://controller161/api/virtualservice/
-
 curl --user admin:xxxxx  --insecure -v -H "Content-Type: application/json" -X POST -d @test.json https://controller161/api/pool/
-
 curl --user admin:xxxxx  --insecure -v -H "Content-Type: application/json" -X POST --data @test2.json  https://controller161/api/healthmonitor
 ```
 test.json
